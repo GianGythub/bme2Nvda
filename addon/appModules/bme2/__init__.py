@@ -9,7 +9,7 @@ addonHandler.initTranslation()
 
 class AppModule(appModuleHandler.AppModule):
 	def chooseNVDAObjectOverlayClasses(self, obj, clsList):
-		if obj.role == ct.ROLE_EDITABLETEXT and obj._get_windowControlID() in (157, 181, 185): 
+		if (obj.role == ct.ROLE_EDITABLETEXT and obj._get_windowControlID() == 157) or (obj.role == ct.ROLE_EDITABLETEXT and 'Braille' in obj.name): 
 			try:
 				if obj.parent.next.firstChild.role == ct.ROLE_CHECKBOX or (obj.parent.next.firstChild.role == ct.ROLE_GRAPHIC and obj.windowStyle & winUser.ES_MULTILINE): return
 			except: pass
