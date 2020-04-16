@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 'bme2' '2020.04.4_pre-release'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2020-04-14 15:00+0200\n"
+"PO-Revision-Date: 2020-04-14 15:09+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: addon\appModules\bme2\__init__.py:7
+#, python-format
+msgid "%s items"
+msgstr ""
+
+#: addon\appModules\bme2\bme2OverlayClasses.py:49
+msgid "reports the current line under the application cursor"
+msgstr "Legge la riga corrente"
+
+#: addon\appModules\bme2\bme2OverlayClasses.py:57
+msgid "reads from the begining of the document up to the end of the text. "
+msgstr "Legge il documento dall'inizio alla fine"
+
+#: addon\appModules\bme2\bme2OverlayClasses.py:65
+msgid "reads from the cursor  up to the end of the text. "
+msgstr "Legge dalla posizione del cursore fino alla fine del documento"
+
+#: addon\appModules\bme2\bme2OverlayClasses.py:73
+msgid "reads from the begining of the document up to the cursor. "
+msgstr "Legge dall'inizio del documento fino alla posizione del cursore"
+
+#: addon\appModules\bme2\bme2OverlayClasses.py:81
+msgid "report the current selected text "
+msgstr "Legge il testo selezionato corrente"
+
+#: addon\appModules\bme2\bme2OverlayClasses.py:192
+msgid "reports the element properties under the cursor if they exists"
+msgstr "Legge le proprietà dell'elemento al cursore, se presenti"
+
+#: addon\appModules\bme2\bme2OverlayClasses.py:200
+msgid "reports the element lyrics under the cursor if exists"
+msgstr "Legge la lirica all'elemento del cursore, se presente "
+
+#: addon\appModules\bme2\bme2OverlayClasses.py:277
+#, python-format
+msgid "moved to position %d of %d"
+msgstr "Spostato alla posizione %d di %d"
+
+#: addon\appModules\bme2\bme2OverlayClasses.py:285
+msgid "hold down control key to order elements in the list"
+msgstr "Tenere premuto il tasto ctrl per ordinare gli elementi in elenco"
+
+#: addon\appModules\bme2\bme2OverlayClasses.py:297
+msgid "removed from list"
+msgstr "Rimosso dall'elenco"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:17
+msgid "Bme2 App Module"
+msgstr ""
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:20
+msgid ""
+"Add-on to provide bme2 accessibility with NVDA\n"
+"\tIn the main editor and special edit field, During cursor movementts and "
+"during editing, music elements are spoken correctly and presented on the "
+"Braille display.\n"
+"\tIn addition,you can use these commands:\n"
+"\t\n"
+"\tNvda+Alt+upArrow: reads from the begining of the text until the cursor "
+"position.\n"
+"\tNvda+alt+downArrow: reads from the position of the cursor until the end of "
+"the text\n"
+"\tNvda+o: reads the properties of the musical element if any.\n"
+"F12: reports lyrics of the element under the cursor, if present.\n"
+"\t"
+msgstr ""
+"Addon per fornire accessibilità in Bme2 con Nvda\n"
+"\tNell'editor principale e nelle caselle di testo speciali, negli "
+"spostamenti del cursore e durante l'immissione, gli elementi musicali "
+"vengono pronunciati correttamente e mostrati sul display Braille. \n"
+"\tIn aggiunta, si possono usare i comandi seguenti:\n"
+"\t\n"
+"\tNvda+Alt+freccia sù: legge dall'inizio del documento fino alla posizione "
+"del cursore\n"
+"\tNvda+alt+freccia giù: legge dalla posizione del cursore fino alla fine del "
+"documento.\n"
+"\tNvda+o: Legge le proprietà dell'elemento al cursore, se presenti.\n"
+"F12: legge la lirica dell'elemento al cursore, se presente.\n"
+"\t"
