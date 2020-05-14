@@ -15,7 +15,7 @@ class AppModule(appModuleHandler.AppModule):
 			except: pass
 			clsList.insert(0,Bme2Edit)
 		elif obj.role == ct.ROLE_TREEVIEWITEM: clsList.insert(0,Bme2TreeViewItem)
-		elif obj.role == ct.ROLE_LISTITEM: clsList.insert(0,Bme2ListBoxItem)
+		elif obj.role == ct.ROLE_LISTITEM and obj.windowClassName != "DirectUIHWND": clsList.insert(0,Bme2ListBoxItem)
 		elif obj.role == ct.ROLE_CHECKBOX: clsList.insert(0,Bme2Checkbox)
 		elif obj.role == ct.ROLE_UNKNOWN  and obj.parent.role == ct.ROLE_LIST: 
 			obj.name = noItemsLabel
