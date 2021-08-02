@@ -27,7 +27,7 @@ addon_info = {
 F12: reports lyrics of the element under the cursor, if present.
 	"""),
 	# version
-	"addon_version" : "2020.12.1",
+	"addon_version" : "2021.07.1",
 	# Author(s)
 	"addon_author" : u"Gianluca Casalino <gianlucaliste@casalino.cloud>",
 	# URL for the add-on documentation support
@@ -37,7 +37,7 @@ F12: reports lyrics of the element under the cursor, if present.
 	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
 	"addon_minimumNVDAVersion" : None,
 	# Last NVDA version supported/tested (e.g. "2018.4.0", ideally more recent than minimum version)
-	"addon_lastTestedNVDAVersion" : "2020.3",
+	"addon_lastTestedNVDAVersion" : "2021.1",
 	# Add-on update channel (default is None, denoting stable releases, and for development releases, use "dev"; do not change unless you know what you are doing)
 	"addon_updateChannel" : None,
 }

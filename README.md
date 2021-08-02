@@ -1,8 +1,8 @@
 # Braille Music Editor Add-On for NVDA
 * Author: Gianluca Casalino
-* Download: https://github.com/GianGythub/bme2Nvda/raw/master/packages/bme2-2020.12.1.nvda-addon 
+* Download: https://github.com/GianGythub/bme2Nvda/raw/master/packages/bme2-2021.07.1.nvda-addon 
 
-This project is an appModule for the Braille Music Editor 2 (Bme2) Software. It has been inspired by the work done for Jaws For Windows, provided from the same authors of Bme2.
+		This project is an appModule for the Braille Music Editor 2 (Bme2) Software. It has been inspired by the work done for Jaws For Windows, provided from the same authors of Bme2.
 **Please note:** This addon has been developed by Gianluca Casalino as a voluntary activity. Nor the author or the contributors are involved in selling and / or development of the software bme2.  If you are encountering any difficulties when using or installing this addon, please contact the author or use the "Issues" link on the Github project page.
 
 ### [Official Github Repository](https://github.com/GianGythub/bme2Nvda/)
